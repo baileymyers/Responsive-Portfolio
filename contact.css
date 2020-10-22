@@ -1,0 +1,51 @@
+.myName {
+    background-color: rgb(71, 189, 189);
+}
+
+.background {
+    background-image: url("./images/pexels-lorenzo-242236.jpg");
+}
+
+main {
+    background-color: white;
+    margin: 20px;
+    width: 90% !important;
+    margin-top: 100px;
+}
+
+.contact-box {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.ml-4 {
+    margin-left: ($spacer * 1.25) !important;
+  }
+
+.ml-2 {
+    margin-left: ($spacer * .5) !important;
+}
+
+hr {
+    width: 300px;
+  }
+
+  .submit-button {
+    background-color: rgb(71, 189, 189);
+    border-color: transparent;
+    color: white;
+    height: 60px;
+    width: 125px;
+    padding-bottom: 20px 25px;
+  }
+
+  footer {
+      background-color: rgb(140, 146, 149);
+      position: static;
+      text-align: center;
+      color: rgb(164, 164, 167);
+      height: 60px;
+      padding: 20px 100px;
+      border-top-color: rgb(71, 189, 189);
+      border-top: 50px;
+  }
