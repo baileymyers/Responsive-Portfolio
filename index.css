@@ -8,13 +8,33 @@
     background-color: rgb(226, 226, 226);
 }
 
+.about-me {
+    background-color: white;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+}
+
+.about-me-head {
+    color: rgb(71, 189, 189);
+    padding-top: 5%;
+}
+
+.my-image {
+    height: 175px;
+    width: auto;
+    margin-right: 5%;
+}
+
 footer {
     background-color: rgb(140, 146, 149);
-    position: static;
     text-align: center;
     color: rgb(226, 226, 226);
     height: 60px;
     padding: 20px 100px;
     border-top-color: rgb(71, 189, 189);
     border-top-style: solid;
+    position: sticky;
+    bottom: 0;
+    width: auto;
 }

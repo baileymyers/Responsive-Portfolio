@@ -8,15 +8,16 @@
     background-color: rgb(226, 226, 226);
 }
 
-/* .myContainer {
-    max-width: max-content !important;
-} */
-
-main {
+.my-row {
     background-color: white;
     margin: 20px;
-    width: 90% !important;
-    margin-top: 100px;
+    margin-top: 10%;
+    /* width: 75%; */
+}
+
+.contact-head {
+    color: rgb(71, 189, 189);
+    padding-top: 5%;
 }
 
 .contact-box {
@@ -24,9 +25,13 @@ main {
     padding-bottom: 25px;
 }
 
-hr {
-    width: 300px;
-  }
+.contact-container {
+    margin-bottom: 10%;
+}
+
+.form-style {
+    padding-bottom: 10%;
+}
 
   .submit-button {
     background-color: rgb(71, 189, 189);
@@ -38,12 +43,14 @@ hr {
   }
 
   footer {
-      background-color: rgb(140, 146, 149);
-      position: static;
-      text-align: center;
-      color: rgb(226, 226, 226);
-      height: 60px;
-      padding: 20px 100px;
-      border-top-color: rgb(71, 189, 189);
-      border-top-style: solid;
-  }
+    background-color: rgb(140, 146, 149);
+    text-align: center;
+    color: rgb(226, 226, 226);
+    height: 60px;
+    padding: 20px 100px;
+    border-top-color: rgb(71, 189, 189);
+    border-top-style: solid;
+    position: sticky;
+    bottom: 0;
+    width: auto;
+}

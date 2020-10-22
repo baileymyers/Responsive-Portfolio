@@ -1,7 +1,40 @@
 .myName {
     background-color: rgb(71, 189, 189);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .background {
-    background-image: url("./images/pexels-lorenzo-242236.jpg");
+    background-color: rgb(226, 226, 226);
+}
+
+.portfolio{
+    background-color: white;
+    margin-top: 20%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+}
+
+.portfolio-head {
+    color: rgb(71, 189, 189);
+    padding-top: 5%;
+}
+
+.portfolio-image {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+}
+
+footer {
+    background-color: rgb(140, 146, 149);
+    text-align: center;
+    color: rgb(226, 226, 226);
+    height: 60px;
+    padding: 20px 100px;
+    border-top-color: rgb(71, 189, 189);
+    border-top-style: solid;
+    position: sticky;
+    bottom: 0;
+    width: auto;
 }
