@@ -1,7 +1,20 @@
 .myName {
     background-color: rgb(71, 189, 189);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .background {
-    background-image: url("./images/pexels-lorenzo-242236.jpg");
+    background-color: rgb(226, 226, 226);
+}
+
+footer {
+    background-color: rgb(140, 146, 149);
+    position: static;
+    text-align: center;
+    color: rgb(226, 226, 226);
+    height: 60px;
+    padding: 20px 100px;
+    border-top-color: rgb(71, 189, 189);
+    border-top-style: solid;
 }
